@@ -1,0 +1,160 @@
+body{
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'sofia', sans-serif;
+	padding-top: 57.5px;
+}
+.col{
+	display: inline-block; 
+	vertical-align: middle; 
+	margin-left: 10px;
+}
+#nav{
+	background-color: #2a2a2a;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	top: 0;
+}
+.banner{
+	width: 100%;
+	vertical-align: bottom;
+	bottom: 100%;
+	position: relative;
+	left: 0%;
+	background-color: rgb(50, 50, 50);
+	color: darkgrey;
+	padding: 10px 0;
+
+}
+.d-inline-block{
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	margin: 12px;
+}
+.banner img{
+	width: 100%;
+}
+h2{
+	margin: 0;
+	margin-bottom: 8px;
+	color: white;
+}
+
+.play{
+	text-align: center;
+	color: green;
+	background-color: greenyellow;
+	width: 250px;
+	margin: 10px auto ;
+	font-size: 23px;
+}
+.play:hover{
+	background-color: green;
+	color: white;
+}
+.news-title{
+	color: rgb(110, 110, 110);
+	text-align: center;
+	background-color: whitesmoke;
+	width: 80%;
+	margin:5px auto;
+
+}
+.block{
+	color: blue;
+	margin: 0;
+}
+h4{
+	margin: 0;
+	color: blue;
+}
+h3{
+	margin: 0;
+}
+.card{
+	width: 25%;
+	display: inline-block;
+	margin: 5px ;
+	vertical-align: top;
+}
+.card img{
+	width: 100%;
+	height: px;
+	object-fit: cover;
+}
+.cards{
+	text-align: center;
+}
+.menu {
+	background-color: rgb(70, 70, 70);
+	width: 18%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	padding: 3%;
+
+}
+.menu a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	margin-top: 10px;
+	background-color: rgba(0, 0, 0, 0.15);
+	padding: 5px 10px;
+
+}
+.card:hover{
+	color: greenyellow;
+}
+#content{
+	width: 76%;
+	margin-left: 24% ;
+}
+.menu a:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid greenyellow;
+
+}
+.footer{
+	background-color: rgb(30, 30, 30);
+	text-align: center;
+	position: relative;
+	z-index: 99;
+	color: rgb(100, 100, 100);
+	padding: 10px;
+}
+.footer1{
+	
+}
+.footer img{
+	width: 65px;
+	height: 65px;
+	filter: grayscale(100%) brightness(0.8);
+	opacity: 0.6;
+}
+.footer1 img{
+	width: 45px;
+	height: 45px
+	
+}
+.text{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/30.jpg");
+	background-size: cover;	
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+
+}
+.text h3{
+ text-align: left;
+ color: greenyellow;
+ padding: 25px;
+ font-weight: bold;
+ text-transform: uppercase;
+ padding-top: 265px;
+}
+
